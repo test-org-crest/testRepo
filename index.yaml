@@ -1,4 +1,4 @@
 apiVersion: '2.3'
 type: SERVICE
-deploymentType: SSH
-description: description
+deploymentType: SSH2
+description: description2
