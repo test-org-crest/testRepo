@@ -37,7 +37,7 @@ import org.apache.commons.lang3.tuple.Pair;
 import java.util.List;
 
 @UtilityClass
-public class TimescaleDBMigrationListTest4 {
+public class TimescaleDBMigrationListTest5 {
   public static List<Pair<Integer, Class<? extends TimeScaleDBMigration>>> getMigrations() {
     return new ImmutableList.Builder<Pair<Integer, Class<? extends TimeScaleDBMigration>>>()
         .add(Pair.of(1, InitSchemaMigration.class))
