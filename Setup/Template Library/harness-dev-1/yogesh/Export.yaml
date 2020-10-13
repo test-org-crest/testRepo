@@ -1,6 +1,8 @@
 harnessApiVersion: '1.0'
 type: SHELL_SCRIPT
-outputVars: myV
-scriptString: export myV='test'
+outputVars: myV,myV2
+scriptString: |-
+  export myV='test'
+  export myV2='test2'
 scriptType: BASH
 timeoutMillis: 600000
