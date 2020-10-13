@@ -1,8 +1,9 @@
 harnessApiVersion: '1.0'
 type: SHELL_SCRIPT
-outputVars: region,referenceAsgName,targetGroupCurrent
+outputVars: region,referenceAsgName,targetGroupCurrent,var1
 scriptString: |-
   export region="us-east-1"
+  export var1='value1'
   export referenceAsgName="loyalty-eligibility-gl-les-dev-reference"
   export targetGroupCurrent="arn:aws:elasticloadbalancing:us-west-2:075953511113:targetgroup/loyalty-eligibility-gl-les/8b05f34718ebe2c3"
 scriptType: BASH
