@@ -1,8 +1,9 @@
 harnessApiVersion: '1.0'
 type: SHELL_SCRIPT
 outputVars: targetGroupArnCurrent
-scriptString: "if [[ -z ${targetGroupArnCurrent} || ${targetGroupArnCurrent} == \"\
-  null\" ]]\n    then \n        echo \"targetGroupArnCurrent is not set in the workflow\
+scriptString: "echo \"${​​​​​context.provisioner_terraform_output_les.targetGroupCurrent}​\
+  ​​​​\"\nif [[ -z ${targetGroupArnCurrent} || ${targetGroupArnCurrent} == \"null\"\
+  \ ]]\n    then \n        echo \"targetGroupArnCurrent is not set in the workflow\
   \ variables\"\n fi"
 scriptType: BASH
 timeoutMillis: 600000
