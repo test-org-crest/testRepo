@@ -4,7 +4,6 @@ outputVars: region,referenceAsgName,targetGroupCurrent
 scriptString: |-
   export region="us-east-1"
   export referenceAsgName="loyalty-eligibility-gl-les-dev-reference"
-  #export targetGroupCurrent="arn:aws:elasticloadbalancing:us-west-#2:075953511113:targetgroup/loyalty-eligibility-gl-les/8b05f34718ebe2c3"
-  export targetGroupCurrent="abc"
+  export targetGroupCurrent="arn:aws:elasticloadbalancing:us-west-2:075953511113:targetgroup/loyalty-eligibility-gl-les/8b05f34718ebe2c3"
 scriptType: BASH
 timeoutMillis: 600000
