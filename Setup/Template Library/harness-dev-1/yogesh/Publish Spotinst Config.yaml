@@ -3,10 +3,10 @@ type: SHELL_SCRIPT
 outputVars: targetGroupArnCurrent
 scriptString: "#!/bin/bash\n\nset -e\n\necho \"sweeping output\"\n\necho \"--------------------------------------\"\
   \n\necho \"${provisioner_terraform_output_les}\"\n\necho \"--------------------------------------\"\
-  \n\n\necho \"${​​​​​context.provisioner_terraform_output_les}​​​​​\"\n\n\nif [[\
-  \ -z ${targetGroupArnCurrent} || ${targetGroupArnCurrent} == \"null\" ]]\n    then\
-  \ \n        echo \"targetGroupArnCurrent is not set in the workflow variables\"\n\
-  \ fi"
+  \n\n\necho \"${​​​​​context.provisioner_terraform_output_les.targetGroupCurrent}​\
+  ​​​​\"\n\n\nif [[ -z ${targetGroupArnCurrent} || ${targetGroupArnCurrent} == \"\
+  null\" ]]\n    then \n        echo \"targetGroupArnCurrent is not set in the workflow\
+  \ variables\"\n fi"
 scriptType: BASH
 timeoutMillis: 600000
 variables:
