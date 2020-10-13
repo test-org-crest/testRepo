@@ -1,6 +1,13 @@
 harnessApiVersion: '1.0'
 type: SSH
 commandUnitType: OTHER
+commandUnits:
+- commandUnitType: COMMAND
+  name: aj test
+  templateUri: harness-dev-1/aj test:8
+  variables:
+  - name: var1
 variables:
 - name: var
   value: '123'
+- name: var1
