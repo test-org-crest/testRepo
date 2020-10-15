@@ -1,0 +1,8 @@
+harnessApiVersion: '1.0'
+type: GIT
+branch: master
+keyAuth: false
+password: gcpkms:XBo8VaBLQ1-JXegvs5l0Cg
+url: https://github.com/wings-software/cf-functional-test
+urlType: REPO
+username: dev-raghav
