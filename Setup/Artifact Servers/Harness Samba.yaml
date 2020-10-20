@@ -1,5 +1,5 @@
 harnessApiVersion: '1.0'
 type: SMB
 password: gcpkms:KHWe9sONQWKMb6e5B_5gEg
-url: smb:\\buildsrv.eastus.cloudapp.azure.com\builds1
+url: smb:\\buildsrv.eastus.cloudapp.azure.com\builds
 username: builduser
