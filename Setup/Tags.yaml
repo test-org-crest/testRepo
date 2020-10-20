@@ -1,0 +1,102 @@
+harnessApiVersion: '1.0'
+type: TAG
+tag:
+- name: ${account.defaults.toBeDeleted2}
+- name: ${app.defaults.BACKUP_PATH}
+- name: ${app.defaults.RUNTIME_PATH}
+- name: ${workflow.variables.commitId}
+- name: '1132'
+- name: '123'
+- name: '1234'
+- name: A
+- name: A B
+- name: AJNewtag
+- name: DT
+- name: DT1234
+- name: E
+- name: E1
+- name: EnvType
+- allowedValues:
+  - asdf
+  name: HIPPA
+- name: Long very longLong very longLong very longLong very longLong very longLong very longLong very long
+- name: MT
+- allowedValues:
+  - Prod
+  - Non-Pord
+  name: Prabhat-Created-Tag
+- allowedValues:
+  - Prod
+  - Non-Prod
+  name: Prabhat13May
+- name: SOX
+- name: TestGov
+- name: Version
+- name: a.b
+- name: aaaaaa
+- name: abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababa2
+- name: abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
+- name: abc
+- name: adsasda
+- name: artifactType
+- name: asdfasdffwqf
+- name: asdfsadf
+- name: buildwf
+- name: chirag 4
+- name: chirag tag
+- name: chirag tag 2
+- name: chirag tag 3
+- name: chirag tag 5
+- name: chirag tag 6
+- name: commitId
+- name: commitId2
+- name: deploymentType
+- name: description
+- allowedValues:
+  - dfadsfasdfasdfasdfsadfasdfasdfasdfasdfasdfaddsdsdskdfasdkfadjfaskdjfaksjdfajsdfjasdkfjadskfjaskdlfjaksdfjaksdjfaksdjfkasjdfkasdjfklasd
+  name: dfadsfasdfasdfasdfsadfasdfasdfasdfasdfasdfaddsdsdskdfasdkfadjfaskdjfaksjdfajsdfjasdkfjadskfjaskdlfja
+- name: dinesh
+- name: env
+- name: guna-123
+- name: guna-456
+- allowedValues:
+  - '1'
+  name: hinger-rbac
+- name: hinger-yaml-1
+- name: hinger-yaml-test
+- name: k
+- allowedValues:
+  - abc
+  - abcdefgabcdefgabcdefgabcdefgabcdefgabcdefgabcdefgabcdefg
+  name: longtag-mt
+- name: milos
+- allowedValues:
+  - '1234'
+  - '12345'
+  name: mt
+- allowedValues:
+  - abc
+  name: myapp
+- name: myservice
+- name: newTag
+- name: newTag123
+- name: onemore
+- name: owner
+- name: pr
+- name: q
+- name: qa-deployment
+- name: sadfsadf
+- name: tag
+- name: tag1
+- name: tag2
+- name: test
+- allowedValues:
+  - '1'
+  name: test-dinesh
+- allowedValues:
+  - qwer
+  - adf dfadsf asdfasdf asdfa
+  name: test-one-123
+- name: testTag
+- name: testTag2
+- name: type
