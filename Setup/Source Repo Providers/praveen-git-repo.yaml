@@ -1,0 +1,8 @@
+harnessApiVersion: '1.0'
+type: GIT
+branch: praveen
+keyAuth: false
+password: gcpkms:7wIsN3GiT5elxFSrdam06A
+url: https://github.com/wings-software/praveen-gitsync.git
+urlType: REPO
+username: praveensugavanam
