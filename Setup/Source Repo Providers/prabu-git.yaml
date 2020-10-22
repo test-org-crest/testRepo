@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: GIT
+keyAuth: false
+password: gcpkms:3N3N5CYxQd2tJ1ePigtsTg
+url: https://github.com/prabu-kr/myGitSyncTest.git
+urlType: REPO
+username: prabu-kr
