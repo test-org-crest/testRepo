@@ -1,0 +1,6 @@
+harnessApiVersion: '1.0'
+type: PCF
+endpointUrl: api.run.pivotal.io
+password: gcpkms:0ivWnXYwTDetQRPVrl1J_g
+skipValidation: false
+username: rohit.karelia@harness.io
