@@ -57,6 +57,7 @@ tag:
   name: dfadsfasdfasdfasdfsadfasdfasdfasdfasdfasdfaddsdsdskdfasdkfadjfaskdjfaksjdfajsdfjasdkfjadskfjaskdlfja
 - name: dinesh
 - name: env
+- name: foo
 - name: guna-123
 - name: guna-456
 - allowedValues:
