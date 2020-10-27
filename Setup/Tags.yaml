@@ -89,6 +89,7 @@ tag:
 - name: tag
 - name: tag1
 - name: tag2
+- name: tes1
 - name: test
 - allowedValues:
   - '1'
