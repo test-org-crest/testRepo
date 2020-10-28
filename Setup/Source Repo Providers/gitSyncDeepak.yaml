@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: GIT
+keyAuth: false
+password: gcpkms:h_MAydrSSS6BU1sNkqT3-A
+url: https://github.com/wings-software/deepakGitSyncTest.git
+urlType: REPO
+username: DeepakPatankar
