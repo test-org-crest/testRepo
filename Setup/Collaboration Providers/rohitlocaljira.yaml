@@ -1,0 +1,5 @@
+harnessApiVersion: '1.0'
+type: JIRA
+baseUrl: http://localhost:8282
+password: gcpkms:K8VqCo2mRUet1NviPNhwyA
+username: rohitkarelia
