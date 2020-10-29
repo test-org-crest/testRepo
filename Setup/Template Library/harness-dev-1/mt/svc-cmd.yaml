@@ -19,7 +19,7 @@ commandUnits:
   - name: name1
     value: val1
 - commandUnitType: COMMAND
-  name: svc-cmdsvc-cmdsvc-cmdsvc-cmdsvc-cmdsvc-cmdsvc-cmdsvc-cmdsvc-cmdsvc-cmdsvc-cmdsvc-cmdsvc-cmdsvc-cmdsvc-cmdsvc-cmdsvc-cmdsvc-cmdsvc-cmdsvc-cmdsvc-cmd
+  name: svc-cmd
   templateUri: harness-dev-1/mt/sc1_newName:6
   variables:
   - name: var1
