@@ -4,7 +4,7 @@ commandUnitType: OTHER
 commandUnits:
 - commandUnitType: COMMAND
   name: sc1
-  templateUri: harness-dev-1/mt/sc1:6
+  templateUri: harness-dev-1/mt/sc1_newName:6
   variables:
   - name: var1
     value: ${newVar1}
@@ -12,7 +12,7 @@ commandUnits:
     value: ${newName1}
 - commandUnitType: COMMAND
   name: sc1-1
-  templateUri: harness-dev-1/mt/sc1:6
+  templateUri: harness-dev-1/mt/sc1_newName:6
   variables:
   - name: var1
     value: '123'
@@ -20,7 +20,7 @@ commandUnits:
     value: val1
 - commandUnitType: COMMAND
   name: sc1-2
-  templateUri: harness-dev-1/mt/sc1:6
+  templateUri: harness-dev-1/mt/sc1_newName:6
   variables:
   - name: var1
     value: '123'
@@ -28,7 +28,7 @@ commandUnits:
     value: val1
 - commandUnitType: COMMAND
   name: sc1-3
-  templateUri: harness-dev-1/mt/sc1:6
+  templateUri: harness-dev-1/mt/sc1_newName:6
   variables:
   - name: var1
     value: '123'
@@ -36,7 +36,15 @@ commandUnits:
     value: val1
 - commandUnitType: COMMAND
   name: sc1-4
-  templateUri: harness-dev-1/mt/sc1:6
+  templateUri: harness-dev-1/mt/sc1_newName:6
+  variables:
+  - name: var1
+    value: '123'
+  - name: name1
+    value: val1
+- commandUnitType: COMMAND
+  name: sc1_newName-5
+  templateUri: harness-dev-1/mt/sc1_newName:6
   variables:
   - name: var1
     value: '123'
