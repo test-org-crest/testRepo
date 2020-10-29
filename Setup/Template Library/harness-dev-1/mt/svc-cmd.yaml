@@ -58,6 +58,14 @@ commandUnits:
     value: '123'
   - name: name1
     value: val1
+- commandUnitType: COMMAND
+  name: sc1_newName-7
+  templateUri: harness-dev-1/mt/sc1_newName:6
+  variables:
+  - name: var1
+    value: '123'
+  - name: name1
+    value: val1
 variables:
 - name: newName1
 - name: newVar
