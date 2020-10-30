@@ -37,9 +37,7 @@ tag:
 - name: abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababa2
 - name: abababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababababab
 - name: abc
-- allowedValues:
-  - '1'
-  name: abc123
+- name: abc123
 - name: adsasda
 - name: artifactType
 - name: asdfasdffwqf
