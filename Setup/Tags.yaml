@@ -80,6 +80,7 @@ tag:
   - abc
   name: myapp
 - name: myservice
+- name: new-123
 - name: newTag
 - name: newTag123
 - name: onemore
