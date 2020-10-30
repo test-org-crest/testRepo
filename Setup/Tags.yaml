@@ -81,7 +81,6 @@ tag:
   name: myapp
 - name: myservice
 - name: new-123
-- name: new-1234
 - name: newTag
 - name: newTag123
 - name: onemore
