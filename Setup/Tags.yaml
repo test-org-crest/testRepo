@@ -74,6 +74,7 @@ tag:
   name: longtag-mt
 - name: milos
 - allowedValues:
+  - aaa
   - '1234'
   - '12345'
   name: mt
