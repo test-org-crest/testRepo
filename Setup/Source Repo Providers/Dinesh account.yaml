@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: GIT
+keyAuth: false
+password: gcpkms:K8VqCo2mRUet1NviPNhwyA
+url: https://github.io
+urlType: ACCOUNT
+username: test
