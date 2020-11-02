@@ -1,0 +1,5 @@
+harnessApiVersion: '1.0'
+type: DOCKER
+password: gcpkms:tA1DYEmUQIeRPDlc16Zf9w
+url: https://registry.hub.docker.com/
+username: devanshu1111
