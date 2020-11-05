@@ -1,0 +1,23 @@
+harnessApiVersion: '1.0'
+type: SMTP
+host: s
+port: 2500
+usageRestrictions:
+  appEnvRestrictions:
+  - appFilter:
+      filterType: ALL
+    envFilter:
+      filterTypes:
+      - PROD
+  - appFilter:
+      filterType: ALL
+    envFilter:
+      filterTypes:
+      - NON_PROD
+  - appFilter:
+      filterType: ALL
+    envFilter:
+      filterTypes:
+      - PROD
+      - NON_PROD
+useSSL: false
