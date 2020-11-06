@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: GIT
+keyAuth: false
+password: gcpkms:d-RGg8W6T--j0S3fmRkI3w
+url: https://github.com/agorodetki/testrepo
+urlType: REPO
+username: agorodetki
