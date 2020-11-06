@@ -1,0 +1,5 @@
+harnessApiVersion: '1.0'
+type: DOCKER
+password: gcpkms:rSqSJ8WxSmyHCrRcXaA41g
+url: https://docker.dev.harness.io/v2/
+username: harnessadmin
