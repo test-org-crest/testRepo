@@ -1,0 +1,6 @@
+harnessApiVersion: '1.0'
+type: NEXUS
+password: gcpkms:lcYIwHaXTKy6v-whONQt2Q
+url: https://nexus2.harness.io/
+username: admin
+version: 2.x
