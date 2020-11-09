@@ -12,11 +12,5 @@ commandUnits:
   templateUri: harness-dev-1/aj test:8
   variables:
   - name: var1
-- artifactVariableName: artifact
-  commandUnitType: SCP
-  deploymentType: SSH
-  destinationDirectoryPath: $WINGS_RUNTIME_PATH
-  name: Copy
-  source: APPLICATION_STACK
 variables:
 - name: var1
