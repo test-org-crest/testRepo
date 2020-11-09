@@ -12,5 +12,8 @@ commandUnits:
   templateUri: harness-dev-1/aj test:8
   variables:
   - name: var1
+- commandUnitType: COMMAND
+  name: test123-2
+  templateUri: harness-dev-1/test123:1
 variables:
 - name: var1
