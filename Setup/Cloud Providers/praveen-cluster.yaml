@@ -1,0 +1,9 @@
+harnessApiVersion: '1.0'
+type: KUBERNETES_CLUSTER
+authType: SERVICE_ACCOUNT
+continuousEfficiencyConfig:
+  continuousEfficiencyEnabled: false
+masterUrl: https://104.197.151.51/
+serviceAccountToken: gcpkms:YKZKkZW5Tqq0-KYnDzwxNg
+skipValidation: false
+useKubernetesDelegate: false
