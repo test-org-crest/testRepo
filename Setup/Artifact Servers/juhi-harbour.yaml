@@ -1,0 +1,5 @@
+harnessApiVersion: '1.0'
+type: DOCKER
+password: gcpkms:_e1Dv4QsQx6IdYSaPGJ3Dg
+url: http://35.223.221.19/harbor/v2/
+username: harness
