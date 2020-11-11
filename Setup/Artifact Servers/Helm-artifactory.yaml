@@ -1,0 +1,5 @@
+harnessApiVersion: '1.0'
+type: HTTP_HELM_REPO
+password: gcpkms:Bm4q-kiqSWuFCmMaFJfl3w
+url: https://harness.jfrog.io/artifactory/KenHarnessHelm/
+username: automationuser
