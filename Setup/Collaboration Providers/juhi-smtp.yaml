@@ -1,7 +1,0 @@
-harnessApiVersion: '1.0'
-type: SMTP
-host: smtp.sendgrid.net
-password: gcpkms:emEj84A9Qo6jNoZxGttB5A
-port: 465
-useSSL: true
-username: apikey
