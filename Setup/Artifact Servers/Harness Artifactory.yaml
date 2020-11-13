@@ -1,0 +1,5 @@
+harnessApiVersion: '1.0'
+type: ARTIFACTORY
+password: gcpkms:QmHCSEK1S4Oj1IWCmJ7SrA
+url: https://harness.jfrog.io/harness
+username: automationuser
