@@ -1,0 +1,5 @@
+harnessApiVersion: '1.0'
+type: DOCKER
+password: gcpkms:GLaao3ANSMWN_v0ABuQ6Mw
+url: https://index.docker.io/v2/
+username: harnessrd2
