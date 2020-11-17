@@ -1,0 +1,5 @@
+harnessApiVersion: '1.0'
+type: DOCKER
+password: gcpkms:FcMYdX75S_WOEW17S5O27g
+url: https://registry.hub.docker.com/v2/
+username: gpahaltest
