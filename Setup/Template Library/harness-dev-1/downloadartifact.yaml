@@ -8,6 +8,11 @@ commandUnits:
   name: Download Artifact
   scriptType: BASH
   workingDirectory: ${app.defaults.RUNTIME_PATH}
+- command: echo ${GRET}
+  commandUnitType: EXEC
+  deploymentType: SSH
+  name: Exec
+  scriptType: BASH
 variables:
 - name: GRET
   value: SFG
