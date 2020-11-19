@@ -2,7 +2,7 @@ harnessApiVersion: '1.0'
 type: SSH
 commandUnitType: OTHER
 commandUnits:
-- command: echo "from TL"
+- command: echo "from TL with variables"
   commandUnitType: EXEC
   deploymentType: SSH
   name: Exec
