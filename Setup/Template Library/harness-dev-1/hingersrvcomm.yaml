@@ -10,6 +10,7 @@ commandUnits:
   deploymentType: SSH
   name: Exec
   scriptType: BASH
+  workingDirectory: /tmp
 variables:
 - name: var1
   value: value1
