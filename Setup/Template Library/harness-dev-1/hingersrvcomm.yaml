@@ -1,3 +1,9 @@
 harnessApiVersion: '1.0'
 type: SSH
 commandUnitType: OTHER
+commandUnits:
+- command: echo "from TL"
+  commandUnitType: EXEC
+  deploymentType: SSH
+  name: Exec
+  scriptType: BASH
