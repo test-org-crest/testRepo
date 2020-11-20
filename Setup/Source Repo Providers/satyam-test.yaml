@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: GIT
+keyAuth: false
+password: gcpkms:z2En_SYESBeXcKIhvSZ8uA
+url: https://github.com/wings-software/satyam-test.git
+urlType: REPO
+username: satyamshanker
