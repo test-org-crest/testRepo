@@ -69,6 +69,9 @@ tag:
 - name: hinger-yaml-test
 - name: k
 - allowedValues:
+  - long allowed value long allowed value long allowed value long allowed value long allowed value long allowed value long allowed value
+  name: long allowed value
+- allowedValues:
   - abc
   - abcdefgabcdefgabcdefgabcdefgabcdefgabcdefgabcdefgabcdefg
   name: longtag-mt
