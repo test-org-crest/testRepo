@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: GIT
+keyAuth: false
+password: gcpkms:VEUfLnxTTqKclL-ciPUsdg
+url: https://github.com/venkatareddyjanapala/
+urlType: ACCOUNT
+username: venkata.reddy@harness.io
