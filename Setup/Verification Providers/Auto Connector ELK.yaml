@@ -1,0 +1,16 @@
+harnessApiVersion: '1.0'
+type: ELK
+connectorType: ELASTIC_SEARCH_SERVER
+elkUrl: https://elk6.dev.harness.io
+usageRestrictions:
+  appEnvRestrictions:
+  - appFilter:
+      filterType: ALL
+    envFilter:
+      filterTypes:
+      - PROD
+  - appFilter:
+      filterType: ALL
+    envFilter:
+      filterTypes:
+      - NON_PROD
