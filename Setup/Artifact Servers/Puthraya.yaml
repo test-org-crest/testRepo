@@ -1,0 +1,5 @@
+harnessApiVersion: '1.0'
+type: ARTIFACTORY
+password: gcpkms:foBrsWXlR56qRanWikOL4Q
+url: https://jfrog.dev.harness.io/artifactory
+username: asdasd
