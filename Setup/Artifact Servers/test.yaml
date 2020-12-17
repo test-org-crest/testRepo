@@ -1,0 +1,5 @@
+harnessApiVersion: '1.0'
+type: JENKINS
+authMechanism: Bearer Token(HTTP Header)
+token: gcpkms:nVu3z7r4RDSSXnAgnjBMPg
+url: https://jenkins-prabu-test.34.66.254.71.nip.io/
