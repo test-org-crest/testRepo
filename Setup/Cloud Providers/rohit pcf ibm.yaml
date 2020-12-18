@@ -1,0 +1,6 @@
+harnessApiVersion: '1.0'
+type: PCF
+endpointUrl: api.us-south.cf.cloud.ibm.com
+password: gcpkms:FYqHzWHlTAGNFD6V2nyutA
+skipValidation: false
+username: rohit.karelia@harness.io
