@@ -14,7 +14,7 @@ tag:
 - name: DT
 - name: DT1234
 - name: E
-- name: E1
+- name: E112
 - name: EnvType
 - allowedValues:
   - asdf
