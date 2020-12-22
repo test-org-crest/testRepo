@@ -1,0 +1,10 @@
+harnessApiVersion: '1.0'
+type: SHELL_SCRIPT
+outputVars: a,b,c
+scriptString: secret="Hello"
+scriptType: BASH
+timeoutMillis: 600000
+variables:
+- name: var1
+- name: var4
+- name: var5
