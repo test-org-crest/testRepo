@@ -15,3 +15,5 @@ commandUnits:
 variables:
 - name: qre
   value: '234'
+- name: abc
+  value: $asas
