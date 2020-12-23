@@ -7,3 +7,8 @@ commandUnits:
   name: Exec
   scriptType: BASH
   workingDirectory: abc
+variables:
+- name: ABC
+  value: ${workflow.variables.test}
+- name: qre
+  value: '23'
