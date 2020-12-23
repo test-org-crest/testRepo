@@ -7,11 +7,6 @@ commandUnits:
   name: Exec
   scriptType: BASH
   workingDirectory: abc
-- commandUnitType: EXEC
-  deploymentType: SSH
-  name: Exec-1
-  scriptType: BASH
-  workingDirectory: '2'
 variables:
 - name: qre
   value: '234'
