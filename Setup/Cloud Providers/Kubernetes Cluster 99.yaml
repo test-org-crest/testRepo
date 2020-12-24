@@ -1,0 +1,14 @@
+harnessApiVersion: '1.0'
+type: KUBERNETES_CLUSTER
+authType: OIDC
+continuousEfficiencyConfig:
+  continuousEfficiencyEnabled: false
+masterUrl: https://35.232.253.134/
+oidcClientId: gcpkms:vsxhI3FlRR-9uPTUqwWOvw
+oidcIdentityProviderUrl: https://dev-658725.okta.com/oauth2/default/v1/
+oidcPassword: gcpkms:O7ha5ql5Tc-1FNwyNaatnQ
+oidcScopes: email
+oidcSecret: gcpkms:2pBFwLrDQ8-8G1hj97hiPQ
+oidcUsername: anshul@harness.io
+skipValidation: false
+useKubernetesDelegate: false
