@@ -1,0 +1,5 @@
+harnessApiVersion: '1.0'
+type: GCP
+serviceAccountKeyFileContent: gcpkms:xkN7UbqTST6g1tp0hZc_-Q
+skipValidation: false
+useDelegate: false
