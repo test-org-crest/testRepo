@@ -21,6 +21,7 @@ tag:
   name: HIPPA
 - name: Long very longLong very longLong very longLong very longLong very longLong very longLong very long
 - name: MT
+- name: One
 - allowedValues:
   - Prod
   - Non-Pord
