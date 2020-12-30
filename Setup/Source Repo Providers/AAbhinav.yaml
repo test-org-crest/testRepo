@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: GIT
+keyAuth: false
+password: gcpkms:9eWoXaqMSTi_FKDKZA49Zw
+url: https://github.com/wings-software/git-sync-hinger.git
+urlType: REPO
+username: hingerabhinav
