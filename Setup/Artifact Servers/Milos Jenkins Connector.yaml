@@ -1,6 +1,0 @@
-harnessApiVersion: '1.0'
-type: JENKINS
-authMechanism: Username/Password
-password: gcpkms:znmgO3GkR1uWz27FLqY1Ew
-url: https://jenkins.dev.harness.io
-username: harnessadmin
