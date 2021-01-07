@@ -1,0 +1,19 @@
+harnessApiVersion: '1.0'
+type: SSH
+commandUnitType: OTHER
+commandUnits:
+- command: |-
+    echo "from TL with variables"
+    echo ${var1}
+    echo ${var2}
+    echo ${var3}
+  commandUnitType: EXEC
+  deploymentType: SSH
+  name: Exec
+  scriptType: BASH
+  workingDirectory: /tmp
+variables:
+- name: var1
+  value: value1
+- name: var2
+  value: '12213'
