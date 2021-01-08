@@ -78,6 +78,3 @@ variables:
 - description: App Physical Base Directory
   name: AppPhysicalDirectory
   value: $env:SYSTEMDRIVE
-- name: x
-  value: x
-- name: asda
