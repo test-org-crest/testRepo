@@ -32,8 +32,6 @@ commandUnits:
         Copy-Item -Path $artifactFilename -Filter "*.*" -Recurse -Destination $appPhysicalDirectory -Container
     }
     Write-Host "Done."
-
-    ${asda}
   commandUnitType: EXEC
   deploymentType: SSH
   name: Expand Artifacts
