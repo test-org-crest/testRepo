@@ -1,6 +1,18 @@
 harnessApiVersion: '1.0'
 type: SSH
 commandUnitType: OTHER
+commandUnits:
+- command: |-
+    echo ${env.name}
+    echo ${env.description}
+    echo ${infra.name}
+    echo ${infra.kubernetes.namespace}
+    echo ${infra.route}
+    echo ${infra.tempRoute}
+  commandUnitType: EXEC
+  deploymentType: SSH
+  name: Exec
+  scriptType: BASH
 variables:
 - description: vikasVarDescription
   name: vikasVarName
