@@ -36,7 +36,6 @@ commandUnits:
   deploymentType: SSH
   name: Expand Artifacts
   scriptType: POWERSHELL
-  workingDirectory: t
 - commandUnitType: COPY_CONFIGS
   deploymentType: SSH
   destinationParentPath: ${DownloadDirectory}
