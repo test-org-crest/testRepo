@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: SSH
+commandUnitType: OTHER
+variables:
+- description: vikasVarDescription
+  name: vikasVarName
+  value: vikasVarValue
