@@ -1,3 +1,12 @@
 harnessApiVersion: '1.0'
 type: SSH
 commandUnitType: OTHER
+commandUnits:
+- command: |-
+    docker login --username="$DOCKER_USER_ID" --password="$DOCKER_USER_PASSWORD"
+    docker run -d -it "$DOCKER_IMAGE"
+    docker logout
+  commandUnitType: DOCKER_START
+  deploymentType: SSH
+  name: Docker Start
+  scriptType: BASH
