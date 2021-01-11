@@ -10,3 +10,8 @@ commandUnits:
   deploymentType: SSH
   name: Docker Start
   scriptType: BASH
+- command: docker ps -a -q --filter ancestor=$IMAGE | xargs docker stop
+  commandUnitType: DOCKER_STOP
+  deploymentType: SSH
+  name: Docker Stop
+  scriptType: BASH
