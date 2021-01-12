@@ -1,0 +1,33 @@
+harnessApiVersion: '1.0'
+type: KUBERNETES_CLUSTER
+continuousEfficiencyConfig:
+  continuousEfficiencyEnabled: false
+delegateName: ci-delegate
+skipValidation: false
+usageRestrictions:
+  appEnvRestrictions:
+  - appFilter:
+      filterType: ALL
+    envFilter:
+      filterTypes:
+      - PROD
+  - appFilter:
+      filterType: ALL
+    envFilter:
+      filterTypes:
+      - NON_PROD
+  - appFilter:
+      entityNames:
+      - vikas_test
+      filterType: SELECTED
+    envFilter:
+      filterTypes:
+      - PROD
+  - appFilter:
+      entityNames:
+      - vikas_test
+      filterType: SELECTED
+    envFilter:
+      filterTypes:
+      - NON_PROD
+useKubernetesDelegate: true
