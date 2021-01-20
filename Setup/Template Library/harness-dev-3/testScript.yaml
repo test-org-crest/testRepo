@@ -4,3 +4,6 @@ outputVars: newVar,sec
 scriptString: echo 1
 scriptType: BASH
 timeoutMillis: 600000
+variables:
+- name: test
+  value: test
