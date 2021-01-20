@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: GIT
+keyAuth: false
+password: gcpkms:KC3pIg4kQbukUyJWWdo7nQ
+url: https://github.com/wings-software
+urlType: ACCOUNT
+username: DeepakPatankar
