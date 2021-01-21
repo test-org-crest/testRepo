@@ -1,0 +1,8 @@
+harnessApiVersion: '1.0'
+type: HTTP
+headers:
+- key: h1
+  value: v1
+method: GET
+timeoutMillis: 0
+url: http:///locahost
