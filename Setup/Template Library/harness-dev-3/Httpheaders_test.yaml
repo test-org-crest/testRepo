@@ -1,0 +1,10 @@
+harnessApiVersion: '1.0'
+type: HTTP
+headers:
+- key: var1
+  value: hvghchgvchgcchgchgcghhvghchgvchgcchgchgcghhvghchgvchgcchgchgcghhvghchgvchgcchgchgcghhvghchgvchgcchgchgcghhvghchgvchgcchgchgcghhvghchgvchgcchgchgcgh
+- key: var2
+  value: var3
+method: GET
+timeoutMillis: 0
+url: ' https://ex-node-app.herokuapp.com/headers'
