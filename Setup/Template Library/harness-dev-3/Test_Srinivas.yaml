@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: HTTP
+method: GET
+timeoutMillis: 0
+url: ${url}
+variables:
+- name: url
