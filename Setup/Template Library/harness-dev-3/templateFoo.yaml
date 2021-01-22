@@ -11,3 +11,4 @@ commandUnits:
   scriptType: BASH
 variables:
 - name: var1
+  value: ${app.defaults.BACKUP_PATH}
