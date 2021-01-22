@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: GIT
+keyAuth: false
+password: gcpkms:lbKIL-QDTdqmxYgazA8FJw
+url: https://github.com/wings-software/
+urlType: ACCOUNT
+username: abhinav-harness
