@@ -1,0 +1,6 @@
+harnessApiVersion: '1.0'
+type: PCF
+endpointUrl: api.system.pcf-harness.com
+password: gcpkms:XcFGQjHUSqiMYPGlENDYRA
+skipValidation: false
+username: admin
