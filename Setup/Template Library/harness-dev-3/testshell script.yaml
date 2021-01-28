@@ -1,0 +1,6 @@
+harnessApiVersion: '1.0'
+type: SHELL_SCRIPT
+outputVars: testVar1
+scriptString: "#curl \necho \"hello world\"\nexport testVar1='value'\n"
+scriptType: BASH
+timeoutMillis: 600000
