@@ -71,6 +71,12 @@ tag:
 - name: hinger-yaml-test
 - name: k
 - allowedValues:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  name: levela
+- allowedValues:
   - long allowed value long allowed value long allowed value long allowed value long allowed value long allowed value long allowed value
   name: long allowed value
 - allowedValues:
