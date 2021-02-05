@@ -19,6 +19,7 @@ tag:
 - allowedValues:
   - asdf
   name: HIPPA
+- name: Junk
 - name: Long very longLong very longLong very longLong very longLong very longLong very longLong very long
 - name: MT
 - name: One
@@ -64,6 +65,10 @@ tag:
 - name: foo
 - name: guna-123
 - name: guna-456
+- allowedValues:
+  - abhinav
+  - hinger
+  name: hinger
 - allowedValues:
   - '1'
   name: hinger-rbac
@@ -124,6 +129,7 @@ tag:
 - name: test111
 - name: testTag
 - name: testTag2
+- name: testing
 - name: tudorsdelegate
 - name: type
 - name: workflow
