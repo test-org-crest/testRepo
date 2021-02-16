@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: SHELL_SCRIPT
+scriptString: |-
+  echo ${instance.name}
+  echo ${instance.hostName}
+scriptType: BASH
+timeoutMillis: 600000
