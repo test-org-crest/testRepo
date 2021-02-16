@@ -1,3 +1,7 @@
 harnessApiVersion: '1.0'
 type: SSH
 commandUnitType: OTHER
+commandUnits:
+- commandUnitType: COMMAND
+  name: childcom
+  templateUri: harness-dev-3/childcom:2
