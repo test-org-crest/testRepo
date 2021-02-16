@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: GIT
+keyAuth: false
+password: hashicorpvault://Vault QA/vikas-test/qayaml#value
+url: https://github.com/wings-software/qayamltest.git
+urlType: REPO
+username: shivamnegi94
