@@ -4,4 +4,10 @@ commandUnitType: OTHER
 commandUnits:
 - commandUnitType: COMMAND
   name: childcom
-  templateUri: harness-dev-3/childcom:2
+  templateUri: harness-dev-3/childcom:4
+  variables:
+  - name: var11
+    value: '11'
+variables:
+- name: var11
+  value: '11'
