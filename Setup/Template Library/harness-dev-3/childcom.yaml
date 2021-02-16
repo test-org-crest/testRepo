@@ -7,3 +7,6 @@ commandUnits:
   deploymentType: SSH
   name: Exec
   scriptType: BASH
+variables:
+- name: var11
+  value: '11'
