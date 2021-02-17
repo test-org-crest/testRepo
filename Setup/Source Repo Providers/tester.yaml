@@ -2,7 +2,7 @@ harnessApiVersion: '1.0'
 type: GIT
 keyAuth: true
 sshKeyName: arvind-ohio-playground-1
-url: ssh://ec2-user@18.219.150.167:22/home/ec2-user/harness-repo.git
+url: ssh://ec2-user@18.219.150.167:7779/home/ec2-user/harness-repo.git
 urlType: REPO
 usageRestrictions:
   appEnvRestrictions:
