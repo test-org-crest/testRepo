@@ -1,6 +1,12 @@
 harnessApiVersion: '1.0'
 type: SSH
 commandUnitType: OTHER
+commandUnits:
+- command: 'echo "the varaible value is : ${var1}"'
+  commandUnitType: EXEC
+  deploymentType: SSH
+  name: Exec
+  scriptType: BASH
 variables:
 - name: var1
   value: ${workflow.variables.var1}
